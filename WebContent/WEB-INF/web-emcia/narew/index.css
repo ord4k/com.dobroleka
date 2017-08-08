@@ -1,0 +1,342 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Cinzel;
+}
+
+html{
+    overflow: hidden;
+    height: 100%;    
+}
+
+body{
+    overflow: auto;
+    height: 100%;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}	
+a:visited {
+	color:black;
+	text-decoration: none;
+}
+a:hover {
+	color:black;
+	text-decoration: none;
+}
+a:active {
+	color:black;
+	text-decoration: none;
+}
+
+/*Parallax effect*/
+.parallax {
+	display: table;
+    background-image: url("images/dobroleka/dobroleka_rzeka.jpg");
+    height: 550px;
+	width:100%;
+	text-align:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Heading Nad Narwią*/
+.parallax p{
+	display: table-cell;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	opacity: 0.9;
+}
+
+/* Top navigation bar*/
+.nav ul{
+	list-style-type: none;
+	background: white;
+	text-align: right;
+	position:fixed;
+	width: 100%;
+	z-index: 3;
+	float:right;
+}
+
+/* Float the list items side by side */
+.nav ul li{
+	display:inline-block;
+	font-size: 14px;
+}
+
+/* Style the links inside the list items */
+.nav ul li a{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change background color of links on hover */
+.nav ul li a:hover {background-color: #E8EAF0}
+
+
+/*Main content of the web after parallax photo/Zapoznaj się z naszym miejscem*/
+.main_page p{
+	font-size: 25px;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/*Editing three main photos*/
+.photo{
+	width: 400px;
+	height: 300px;
+	margin:auto;
+	padding:auto;
+}
+
+#images{
+	width:100%;
+	text-align:center;
+	margin-bottom:150px;
+}
+
+#okolica{
+	display:inline-block;
+	margin:auto;
+}
+
+#atrakcje{
+	display:inline-block;
+	margin:auto;
+}
+
+#pokoje{
+	display:inline-block;
+	margin:auto;
+}
+/*Editing three main photos - end*/
+
+
+/*Text on photos*/
+.image-wrapper {
+    position: relative;
+    text-align:center;
+}
+
+/*Change background opacity of images on hover*/
+.image-wrapper:hover{
+	opacity:0.5
+}
+.image-wrapper p {
+    position: absolute;
+    left: 0;
+    top: 0;
+	right:0;
+	bottom:0;
+    color: white;
+	font-size: 50px;
+	opacity:0
+}
+.image-wrapper p:hover {
+	opacity:1;
+}
+/*Contact form - main structure*/
+#contacts{
+	height: 500px;
+}
+
+#contact_and_information{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+#contact_and_information:after{
+	content:'';
+    display:block;
+    clear:both;
+}
+
+#contact{
+	width: 26%;
+	height: 380px;
+	padding: 3%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top:4%;
+	float: left;
+	background-color:white;
+	opacity:0.9;
+}
+
+#information{
+	width: 26%;
+	height: 380px;
+	padding: 3%;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top:4%;
+	float: left;
+	background-color: white;
+	opacity:0.9;
+	
+}
+/*Contact form - main structure - end*/
+
+
+/*Contact form - Skontaktuj się z nami*/
+input#imie{
+	width: 95%;
+	padding: 6px 5px;
+	margin-top: 6px;
+	margin-bottom: 3px;
+	font-size:14px;
+	margin-left:0px;
+	box-sizing: border-box;
+	resize:none;
+	color: black;
+}
+
+
+input#adres_m{
+	width: 95%;
+	padding: 6px 5px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	margin-left:0px;
+	box-sizing: border-box;
+	resize:none;
+	font-size:14px;
+	color: black;
+}
+
+input#submit{
+	background-color: white;
+	border:1.2px solid grey;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+	box-sizing: border-box;
+    display: inline-block;
+    font-size: 15px;
+	margin-top:20px;
+	
+}
+
+input#submit:hover{
+	background: #E8EAF0;
+}
+
+textarea{
+	width: 95%;
+	height: 120px;
+	padding: 12px 10px;
+	padding-top: 12px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	resize: none;
+	font-size: 14px;
+}
+
+#form{
+	text-align:left;
+	font-size: 15px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding-top: 30px;
+}
+
+textarea:hover{
+	border: 1px solid black;
+}
+/*Contact form - Przydatne informacje*/
+
+#info p{
+	text-align:left;
+	font-size: 17px;
+}
+
+.different{
+	padding-top:30px;
+}
+
+.same{
+	padding: 3px;
+}
+
+
+
+/*End of contact form*/
+
+
+
+
+/*Przydatne informacje
+#info{
+	width: 75%;
+	height: 320px;
+	padding: 12px 10px;
+	padding-top: 14px;
+	margin-top: 15px;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	resize: none;
+	font-size: 14px;
+	float:right;
+	margin-right: 90px;
+
+}
+
+#info p{
+	font-size: 15px;
+	padding: 3px;
+	text-align:left;
+	
+}
+
+#info p.caly{
+	font-size: 17px;
+	padding-bottom: 15px;
+	
+}
+*/
+
+.parallax_2 {
+	display: table;
+    background-image: url("images/dobroleka/dobroleka_labedz.jpg");
+    height: 550px;
+	width:100%;
+	text-align:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer{
+	height:45px;
+	text-align:center;
+	font-size:12px;
+	padding-top:13px;
+}
+
+
+
+
+
+
+
+
+
+

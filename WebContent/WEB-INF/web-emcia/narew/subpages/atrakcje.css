@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Cinzel;
+}
+
+/*Header*/
+.parallax {
+	display: table;
+    background-image: url("../images/atrakcje/atrakcje_kajak.jpg");
+    height: 550px;
+	width:100%;
+	text-align:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax p{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+/* Top navigation bar*/
+.nav ul{
+	list-style-type: none;
+	background: white;
+	text-align: right;
+	position:fixed;
+	width: 100%;
+	z-index: 3;
+	float:right;
+}
+
+/* Float the list items side by side */
+.nav ul li{
+	display:inline-block;
+	font-size: 14px;
+}
+
+/* Style the links inside the list items */
+.nav ul li a{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change background color of links on hover */
+.nav ul li a:hover {background-color: #E8EAF0}
+
+#atraction{
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 100px;
+	padding: 50px;
+	line-height: 27px;
+}
+
+#atraction {
+	text-align: justify;
+	font-size: 16px;
+}
+
+#atraction p.bigger{
+	font-size: 30px;
+	text-decoration:none;
+	padding-bottom: 40px;
+	text-align:center;
+}
+
+#atraction p.middle{
+	padding-top: 8px;
+	padding-bottom: 30px;
+	}
+
+.photography{
+	width: 885px;
+	margin-bottom: 30px;
+}
+
+.bigger p{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 1 px;
+	line-height: 25px;
+	font-size;30px;
+}
+
+#footer{
+	height:45px;
+	text-align:center;
+	font-size:12px;
+	padding-top:13px;
+}
+
+
+
