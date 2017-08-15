@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="sec"
@@ -8,7 +7,7 @@
 <!--Parallax effect-->
 <div class="parallax">
 	<p class="title">
-		Nad Narwią<span>CAŁOROCZNY DOMEK DO WYNAJĘCIA</span>
+		Nad Narwią</br><span>CAŁOROCZNY DOMEK DO WYNAJĘCIA</span>
 	</p>
 </div>
 <!--End of parallax effect-->
@@ -22,19 +21,19 @@
 		<div id="okolica" class="image-wrapper">
 			<a href="subpages/strona_okolica.html"><img class="photo"
 				src="${pageContext.request.contextPath}/static/css/images/okolica/okolica_rzeka.jpg"
-				alt="Okolica">OKOLICA</a>
+				alt="Okolica"><p>OKOLICA</p></a>
 		</div>
 
 		<div id="atrakcje" class="image-wrapper">
 			<a href="subpages/strona_atrakcje.html"><img class="photo"
 				src="${pageContext.request.contextPath}/static/css/images/atrakcje/atrakcje_rzeka.jpg"
-				alt="Atrakcje">ATRAKCJE</a>
+				alt="Atrakcje"><p>ATRAKCJE</p></a>
 		</div>
 
 		<div id="pokoje" class="image-wrapper">
 			<a href="subpages/strona_pokoje.html"><img class="photo"
 				src="${pageContext.request.contextPath}/static/css/images/pokoje/pokoje_meble.jpg"
-				alt="Pokoje">POKOJE</a>
+				alt="Pokoje"><p>POKOJE</p></a>
 		</div>
 
 	</div>

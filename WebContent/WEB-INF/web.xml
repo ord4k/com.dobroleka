@@ -20,14 +20,7 @@
     <servlet-name>offers</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
-  <mime-mapping>
-    <extension>otf</extension>
-    <mime-type>application/x-font-opentype</mime-type>
-</mime-mapping>
- <mime-mapping>
-    <extension>ttf</extension>
-    <mime-type>application/x-font-truetype</mime-type>
-</mime-mapping>
+  
   <description>Spring Database</description>
   <resource-ref>
     <description>DB Connection</description>
