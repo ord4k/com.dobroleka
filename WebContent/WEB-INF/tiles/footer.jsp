@@ -1,3 +1,5 @@
-<div id="footer">
-			<p>Copyright 2017 by Emilia Kurpińska and Michał‚ Ordak. All rights reserved</p>
+  <footer>
+		<div id="footer">
+			Copyright 2017 by Emilia Kurpińska and Michał Ordak</br>All rights reserved
 		</div>
+  </footer>

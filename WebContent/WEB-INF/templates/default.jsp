@@ -1,39 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; utf-8"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title><tiles:insertAttribute name="title" /></title>
-
-<link type="text/css" rel="stylesheet"
-	href="${pageContext.request.contextPath}/static/css/main.css">
-<script type="text/javascript"
-	src="${pageContext.request.contextPath}/static/script/jquery.js">
-	
-</script>
-
-<tiles:insertAttribute name="includes"></tiles:insertAttribute>
-
-
-</head>
-<body>
-	<div class="header">
+	<head>
+	    <title>Narew</title>
+	    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/main.css" >
+	    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/font.css" >
+	    <meta charset="UTF-8">
+	<meta name="description"
+	content="Całoroczny domek do wynajęcia Nad Narwią w Dobrołęce">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	</head> 
+	<body>
 		<tiles:insertAttribute name="header"></tiles:insertAttribute>
-	</div>
-
-	<div class="content">
 		<tiles:insertAttribute name="content"></tiles:insertAttribute>
-	</div>
-
-	<hr />
-	<div class="footer">
+		<hr />
 		<tiles:insertAttribute name="footer"></tiles:insertAttribute>
-	</div>
-
-
-</body>
+	</body>
 </html>
