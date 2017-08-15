@@ -53,7 +53,7 @@ a:active {
 	/*Heading Nad Narwią*/
 	.title{
 		display: table-cell;
-		line-height: 35px;
+		line-height: 45px;
 		text-align: center;
 		vertical-align: middle;
 		color: white;
@@ -63,6 +63,7 @@ a:active {
 
 	.title span{
 		font-size:20px;
+/* 		line-height: 50px; */
 		}
 
 	/* Top navigation bar*/
@@ -383,6 +384,7 @@ body{
 
 .title span{
 	font-size:13px;
+	
 	}
 
 /* Top navigation bar*/
