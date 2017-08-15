@@ -14,8 +14,9 @@
 			src: url("fonts/Cinzel-Regular.otf")
 			}
 		</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
   </head> 
-  <body>
+ <body>
 	
 	<!--Header-->
 	<header>
@@ -31,47 +32,48 @@
 
 	<!--Parallax effect-->
 	<div class="parallax">
-		<p style="font-size:70px;">Nad Narwią</br><span style="font-size:20px;">CAŁOROCZNY DOMEK DO WYNAJĘCIA</span></p>
+		<p class="title">Nad Narwią</br><span>CAŁOROCZNY DOMEK DO WYNAJĘCIA</span></p>
 	</div>
 	<!--End of parallax effect-->
 	
 	<!--Main_page-->
-	<div style="height: 800px; background-color:white;" class="main_page">
-		<p class="naglowki" id="zapoznaj" style="font-size:27px;">Zapoznaj sie z naszym miejscem</p>
+	<div class="main_page">
+		<p class="headers" id="zapoznaj">Zapoznaj sie z naszym miejscem</p>
 	
 			<div id=images><!--Box with photos./Main page 1/2.-->
 					<div id="okolica" class="image-wrapper"><a href="subpages/strona_okolica.html"><img class="photo" src="images/okolica/okolica_rzeka.jpg" alt="Okolica"><p>OKOLICA</p></a>
 					</div>
 			
 					<div id="atrakcje" class="image-wrapper">
-						<a href="subpages/strona_atrakcje.html"><img class="photo" src="images/atrakcje/atrakcje_kajak.jpg" alt="Atrakcje"><p>ATRAKCJE</p></a>
+						<a href="subpages/strona_atrakcje.html"><img class="photo" src="images/atrakcje/atrakcje_rzeka.jpg" alt="Atrakcje"><p>ATRAKCJE</p></a>
 					</div>
 			
 					<div id="pokoje" class="image-wrapper">
 						<a href="subpages/strona_pokoje.html"><img class="photo" src="images/pokoje/pokoje_meble.jpg" alt="Pokoje"><p>POKOJE</p></a>
 					</div>	
-			</div> <!--End box with photos-->
-		
-	</div>	
-		<div class="parallax_2"><!-- Second parallax effect-->
+
+			</div> <!--End box with photos-->	
+	</div><!--End-main_page-->
+	
+	<div class="parallax_2"><!-- Second parallax effect-->
 			
-			<div id="contact_and information">
+		<div id="contact_and information">
 				
-				<!-- Two divs in contact and information-->
-					<div id="contact">
-							<p style="font-size:27px;" id="napisz">Napisz do nas!</p>
+			<!-- Two divs in contact and information-->
+				<div id="contact">
+						<p id="napisz">Napisz do nas!</p>
 							<form id="form"><!-- Contact form -->
 							<label for="imie">IMIĘ</label></br>
 							<input type="text" id="imie" name="imie"></br>
 							<label for="adres_mailowy">ADRES MAILOWY</label></br>
 							<input type="text" id="adres_m" name="adres_m"></br>
 							<textarea>Twoja wiadomość...</textarea></br>
-							<input type="submit" name="send" id="submit" value="Wyślij"/>
-							</form><!-- End of contact form-->
+						<input type="submit" name="send" id="submit" value="Wyślij"/>
+						</form><!-- End of contact form-->
 					</div>
 					
-					<div id="information">
-						<p style="font-size:27px;"">Przydane informacje</p>
+				<div id="information">
+						<p>Przydane informacje</p>
 							<div id="info">
 								<p class="different">tel. +48 989 989 989</p>
 								<p class="same">E-mail. domek@gmail.com</p>
@@ -80,12 +82,10 @@
 							</div>
 					</div>
 					<!-- End of two divs in contacts and information-->
-					
 			</div>
 			
 		</div> <!--End of second parallax effect-->
   </body>
-  
   <!--Footer-->
   <footer>
 		<div id="footer">

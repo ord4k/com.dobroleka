@@ -1,0 +1,286 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Cinzel;
+}
+
+/*Header*/
+
+
+.headers{
+	font-size:55px;
+	margin:5px;
+	}
+
+.parallax_okolica {
+	display: table;
+    background-image: url("../images/okolica/okolica_rzeka.jpg");
+    height: 550px;
+	width:100%;
+	text-align:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_atrakcje {
+	display: table;
+    background-image: url("../images/atrakcje/atrakcje_rzeka.jpg");
+    height: 550px;
+	width:100%;
+	text-align:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_pokoje {
+	display: table;
+    background-image: url("../images/pokoje/pokoje_meble.jpg");
+    height: 550px;
+	width:100%;
+	text-align:center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+background-size: cover;}
+
+.parallax_okolica p, .parallax_atrakcje p, .parallax_pokoje p{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+/* Top navigation bar*/
+.nav ul{
+	list-style-type: none;
+	background: white;
+	text-align: right;
+	position:fixed;
+	width: 100%;
+	z-index: 3;
+	float:right;
+}
+
+/* Float the list items side by side */
+.nav ul li{
+	display:inline-block;
+	font-size: 14px;
+}
+
+/* Style the links inside the list items */
+.nav ul li a{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change background color of links on hover */
+.nav ul li a:hover {background-color: #E8EAF0}
+
+#introduction{
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 100px;
+	padding: 50px;
+	line-height: 27px;
+}
+
+#introduction {
+	text-align: justify;
+	font-size: 16px;
+}
+
+#introduction p.title{
+	font-size: 30px;
+	text-decoration:none;
+	padding-bottom: 40px;
+	text-align:center;
+}
+
+#introduction p.content{
+	padding-top: 8px;
+	padding-bottom: 30px;
+	}
+
+.photography{
+	width: 885px;
+	margin-bottom: 30px;
+}
+
+.title p{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 1px;
+	line-height: 25px;
+	font-size:30px;
+}
+
+#footer{
+	height:45px;
+	text-align:center;
+	font-size:12px;
+	padding-top:13px;
+}
+
+
+					/*Responsive*/
+	
+
+@media (min-width: 1100px) {
+	/* style dla 1050px */
+	body{
+		background-color: yellow;
+	}
+}
+
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+/* style dla 950px */
+body{
+		background-color: green;
+	}
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+/* style dla 750px */
+body{
+		background-color: blue;
+	}
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+/* style dla 750px */
+body{
+		background-color: orange;
+	}
+}
+
+
+
+
+/*Parallax effect*/
+
+@media (max-width: 500px) {
+/* style dla 300px */
+
+/*Header*/
+
+.headers{
+	font-size: 40px;
+	padding-top:200px;
+	}
+
+.parallax_okolica {
+	display: table;
+    background-image: url("../images/okolica/okolica_rzeka_duza.jpg");
+    height: 500px;
+	width:100%;
+	text-align:center;
+	}
+    
+
+.parallax_atrakcje {
+	display: table;
+    background-image: url("../images/atrakcje/atrakcje_rzeka.jpg");
+    height: 500px;
+	width:100%;
+	text-align:center;
+	}
+
+.parallax_pokoje {
+	display: table;
+    background-image: url("../images/pokoje/pokoje_meble.jpg");
+    height: 500px;
+	width:100%;
+	text-align:center;
+    }
+
+.parallax_okolica p, .parallax_atrakcje p, .parallax_pokoje p{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+/* Top navigation bar*/
+.nav ul{
+	list-style-type: none;
+	background: white;
+	text-align: left;
+	position:fixed;
+	width: 100%;
+	float:left;
+	}
+
+/* Float the list items side by side */
+.nav ul li{
+	display:block;
+	font-size: 10px;
+	}
+
+/* Style the links inside the list items */
+.nav ul li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 13px 13px;
+	text-decoration: none;
+	font-size: 15px;
+	}
+
+/* Change background color of links on hover */
+.nav ul li a:hover {background-color: #E8EAF0}
+
+#introduction{
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 100px;
+	padding: 30px;
+	line-height: 23px;
+}
+
+#introduction {
+	text-align: justify;
+}
+
+#introduction p.title{
+	font-size: 23px;
+	text-decoration:none;
+	padding-bottom: 40px;
+	text-align:center;
+	line-height: 26px;
+}
+
+#introduction p.content{
+	padding-top: 8px;
+	padding-bottom: 30px;
+	font-size:15px;
+	}
+
+.photography{
+	width: 885px;
+	margin-bottom: 30px;
+}
+
+.title p{
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 1px;
+	font-size: 17px;
+	}
+
+.content{
+	font-size:12px;
+	}
+
+
+
+
+
